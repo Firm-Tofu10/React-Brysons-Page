@@ -4,7 +4,7 @@ function Header (props) {
 	console.log("Head props", props)
 	return (
 		<div>
-			<h3>hello</h3>
+			<h3>{`${props.title}`}</h3>
 		</div> 
 	)
 
