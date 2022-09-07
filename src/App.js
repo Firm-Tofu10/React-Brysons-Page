@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <Header title="Bryson's Portfolio."/>
-			<Nav nav='Home-About Me-Schooling-My Projects' />
-			<Footer version='V0.0.6----' />
+			<Nav nav='About Me-Portfolio-Resume-Contact' />
+			<Footer version='V0.0.8----' />
 			
     </div>
   );
