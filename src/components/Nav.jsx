@@ -4,10 +4,28 @@ import React from "react";
 function Nav (props) {
 	console.log("Nav Props", props)
 	return (
-		<nav id="nav" className='navbar'>{`${props.nav}`}</nav>
-		//  { <div className='navbar-box'></div>
-		//  <link to='public/Banner.png' className='navbar-picture'></link> }
-
+		<nav id="nav" className='navbar'>{`${props.nav}`}
+		{/* <NavLink to="/public/Banner.png" articleStyle>
+		<h1>Logo</h1>
+		</NavLink>
+		<Bars />
+		<NavMenu>
+		<NavLink to="/about" articleStyle>
+		About Me
+		</NavLink>
+		<NavLink to="/portfolio" articleStyle>
+		Portfolio
+		</NavLink>
+		<NavLink to="/resume" articleStyle>
+		Resume
+		</NavLink>
+		<NavLink to="/contact" articleStyle>
+		Contact
+		</NavLink>
+		</NavMenu>
+		<NavBtn>
+		</NavBtn> */}
+		</nav>
 		)
 
 }
