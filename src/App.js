@@ -8,7 +8,7 @@ function App() {
     <div>
       <Header title="Bryson's Portfolio."/>
 			<Nav nav='Home-About Me-Schooling-My Projects' />
-			<Footer version='V0.0.5' />
+			<Footer version='V0.0.6----' />
 			
     </div>
   );
