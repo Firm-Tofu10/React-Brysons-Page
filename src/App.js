@@ -6,9 +6,9 @@ import './App.css'
 function App() {
   return (
     <div>
-      <Header id="header" title="Bryson's Portfolio."/>
-			<Nav id="nav" nav='Home-About Me-Schooling-My Projects' />
-			<Footer id="footer" version='V0.0.1' />
+      <Header title="Bryson's Portfolio."/>
+			<Nav nav='Home-About Me-Schooling-My Projects' />
+			<Footer version='V0.0.5' />
 			
     </div>
   );
