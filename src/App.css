@@ -1,0 +1,21 @@
+#header {
+	display:flex;
+	background-color: teal;
+	justify-content: center;
+	align-items: center;
+}
+
+#nav {
+	display:flex;
+	background-color: black;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+Footer {
+	display:flex;
+	background-color: purple;
+	justify-content: center;
+	align-items: center;
+}
