@@ -1,5 +1,5 @@
 import React from "react";
-import Navlogo from "public/Banner.png"
+// import Navlogo from "public/Banner.png"
 
 function Nav (props) {
 	console.log("Nav Props", props)
