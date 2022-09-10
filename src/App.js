@@ -4,6 +4,7 @@ import './App.css'
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Navlogo from "./components/Banner2.png"
+import { teal } from '@material-ui/core/colors';
 
 function App() {
   return (
@@ -12,28 +13,26 @@ function App() {
 			{ <Header title="Bryson's Portfolio."/> }
 			<div style={{backgroundImage: `url(${Navlogo})`,height:"48vh",width:"65%",position:"flex",marginLeft:"32rem",marginTop:"2rem",borderStyle:"solid",borderColor:"white"}}>
 			<ul id="navLine">
-            <li>
+            <li id='colorA'>
               <a href="#about">About</a>
             </li>
-            <li>
+            <li id='colorB'>
               <a href="#portfolio">Portfolio</a>
             </li>
-						<li>
+						<li id='colorC'>
               <a href="#resume">Resume</a>
             </li>
-						<li>
+						<li id='colorD'>
               <a href="#contact">Contact</a>
             </li>
     </ul>
 			</div> 
 			{/* This line is here becuse i was to generate the nav bar on the image. */}
-			<Footer id="about" version='V0.1.1----' />
+			<Footer id="footer" version='V0.1.1----' />
 			
 			<Container id='about' maxWidth="sm">
-      <Typography component="div" style={{ 
-        backgroundColor: 'White', height: '30vh', width: '50vh', position: 'flex',marginbottom: '3rem',justifyContent: 'center', alignItems: 'center'
-      }}>
-        <h3>About Me</h3>
+      <Typography component="div" id="aboutCon">
+        <h3 style={{color:"White",textAlign:"center",fontSize:"30px"}}>About Me</h3>
 						Hello, my name is Bryson Benson I am 24 years old Full Stack Web Developer, I recently graduated from the
 							University Of Utah via there coding boot camp. Some of my hobbies outside of work consist of Rock Climbing
 							and Video Games. Being from Salt Lake there is plenty of climbing locally and this gives me to the
@@ -41,10 +40,8 @@ function App() {
       </Typography>
     </Container>
 		<Container id='portfolio' maxWidth="sm">
-      <Typography component="div" style={{ 
-        backgroundColor: 'Wheat', height: '30vh', width: '50vh', position: 'flex',marginbottom: '2rem',justifyContent: 'center', alignItems: 'center'
-      }}>
-        <h3>Portfolio</h3><li>Day Planer: <a
+      <Typography component="div" id="portfolioCon">
+        <h3 style={{color:"Black",textAlign:"center",fontSize:"30px"}}>Portfolio</h3><li>Day Planer: <a
 									href="https://github.com/Firm-Tofu10/Day-Planer">https://github.com/Firm-Tofu10/Day-Planer</a></li>
 							<li>Movie Blog: <a
 									href="https://github.com/Firm-Tofu10/MovieClub">https://github.com/Firm-Tofu10/MovieClub</a>
@@ -75,23 +72,20 @@ function App() {
       </Typography>
     </Container>
 		<Container id='resume' maxWidth="sm">
-      <Typography component="div" style={{ 
-        backgroundColor: 'Grey', height: '30vh', width: '50vh', position: 'flex',marginbottom: '2rem',justifyContent: 'center', alignItems: 'center'
-      }}>
-        <h3>Resume</h3>I graduated from University of Utah coding boot camp, the boot camp was a great
+      <Typography component="div">
+        <h3 style={{color:"White",textAlign:"center",fontSize:"30px"}}>Resume</h3>I graduated from University of Utah coding boot camp, the boot camp was a great
 									experience mostly because I have been trying to learn how to code since high school. This gave me some
 									much needed structure and the opportunity to learn from and meet like minded people. I also got to
 									experience to see how much there is to learn which is very exciting because i'm the kind of person
 									that becomes bored when there is nothing else to learn or improve at. I would highly recommend this
 									program for anyone that need the structure to learn how to code.
 				<h3>Link to resume.</h3>
+									<a herf="https://docs.google.com/document/d/13n1acTQ35vnsaBpVHn7HGekwTOYwaoC9xDYS6eyJpxM/edit#heading=h.tuxh7mwdaxox">https://docs.google.com/document/d/13n1acTQ35vnsaBpVHn7HGekwTOYwaoC9xDYS6eyJpxM/edit#heading=h.tuxh7mwdaxox</a>
       </Typography>
     </Container>
 		<Container id='contact' maxWidth="sm">
-      <Typography component="div" style={{ 
-        backgroundColor: 'Green', height: '30vh', width: '50vh', position: 'flex',marginbottom: '2rem',justifyContent: 'center', alignItems: 'center'
-      }}>
-        <h3>Contact</h3>
+      <Typography component="div">
+        <h3 style={{color:"Black",textAlign:"center",fontSize:"30px"}}>Contact</h3>
 						<ul class="list-unstyled mb-4">
 						<li class="mb-3"><a href="#!"><i
 									class="far fa-envelope display-25 me-3 text-secondary"></i>bryonnbenson10@gmail.com</a></li>
