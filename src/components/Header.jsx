@@ -5,7 +5,21 @@ function Header (props) {
 	console.log("Head props", props)
 	return (
 		<div id="header">
-			<h3>{`${props.title}`}</h3>
+			Bryson's Portfolio
+			<ul>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+						<li>
+              <a href="#resume">About</a>
+            </li>
+						<li>
+              <a href="#contact">About</a>
+            </li>
+    </ul>
 		</div> 
 	)
 

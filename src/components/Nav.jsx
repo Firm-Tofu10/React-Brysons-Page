@@ -1,32 +1,36 @@
 import React from "react";
-// import Navlogo from "public/Banner.png"
+import Navlogo from "./Banner2.png"
+import About from "./thiscomp"
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 
-function Nav (props) {
-	console.log("Nav Props", props)
+function Nav () {
+	console.log("Nav Props")
 	return (
-		<nav id="nav" className='navbar'>{`${props.nav}`}
-		{/* <NavLink to="/public/Banner.png" articleStyle>
-		<h1>Logo</h1>
-		</NavLink>
-		<Bars />
-		<NavMenu>
-		<NavLink to="/about" articleStyle>
-		About Me
-		</NavLink>
-		<NavLink to="/portfolio" articleStyle>
-		Portfolio
-		</NavLink>
-		<NavLink to="/resume" articleStyle>
-		Resume
-		</NavLink>
-		<NavLink to="/contact" articleStyle>
-		Contact
-		</NavLink>
-		</NavMenu>
-		<NavBtn>
-		</NavBtn> */}
-		</nav>
+		// <div style={{backgroundImage: 'url(' + require('./Banner.png') + ')'}}>
+		<Router>
+		<div style={{backgroundImage: `url(${Navlogo})`,height:"60vh",width:"100%"}}>
+		
+		
+		
+		
+		
+      <Routes>
+        <Route path="/About" element={<About />}>
+          {/* <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} /> */}
+        </Route>
+      </Routes>
+      </div>
+    </Router>
+
 		)
 
-}
+};
 export default Nav

@@ -1,4 +1,4 @@
-#header {
+  #header {
 	display:flex;
 	background-color: teal;
 	justify-content: center;
@@ -8,8 +8,8 @@
 
 #nav {
 	display:flex;
-	background-color: black;
-	justify-content: center;
+	 background-color: black; 
+	 justify-content: center;
 	align-items: center;
 	color: white;
 }
@@ -31,7 +31,13 @@ Footer {
 }
 
 body {
-	background-color: black;
-}
+	 background-color: black; 
+ }  
 
+ #navLine {
+	align-items: center;
+	position: flex;
+	justify-content: center;
+ }
 
+  
