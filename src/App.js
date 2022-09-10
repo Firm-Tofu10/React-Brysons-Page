@@ -3,13 +3,15 @@ import Footer from './components/Footer';
 import './App.css'
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
+import Navlogo from "./components/Banner2.png"
 
 function App() {
   return (
     <div>
 
 			{ <Header title="Bryson's Portfolio."/> }
-			
+			{/* <div style={{backgroundImage: 'url(' + require('./Banner.png') + ')'}}></div>  */}
+			{/* This line is here becuse i was to generate the nav bar on the image. */}
 			<Footer id="about" version='V0.1.1----' />
 			
 			<Container id='about' maxWidth="sm">

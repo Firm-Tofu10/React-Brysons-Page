@@ -6,7 +6,7 @@ function Header (props) {
 	return (
 		<div id="header">
 			Bryson's Portfolio
-			<ul>
+			<ul id="navLine">
             <li>
               <a href="#about">About</a>
             </li>
@@ -14,10 +14,10 @@ function Header (props) {
               <a href="#portfolio">Portfolio</a>
             </li>
 						<li>
-              <a href="#resume">About</a>
+              <a href="#resume">Resume</a>
             </li>
 						<li>
-              <a href="#contact">About</a>
+              <a href="#contact">Contact</a>
             </li>
     </ul>
 		</div> 
