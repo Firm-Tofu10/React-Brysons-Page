@@ -4,6 +4,7 @@
 	justify-content: center;
 	align-items: center;
 	color:white;
+	height:80px;
 }
 
 #nav {
@@ -16,7 +17,7 @@
 
 Footer {
 	position: absolute;
-  bottom: -50%;
+  bottom: -100%;
   width: 100%;
   height: 2.5rem;
 	background-color: wheat;
@@ -27,7 +28,7 @@ Footer {
 	border: 3px solid black;
   padding: 10px;
 	text-align: center;
-	right:42.5%;
+	right:40%;
 }
 
 body {
@@ -38,6 +39,25 @@ body {
 	align-items: center;
 	position: flex;
 	justify-content: center;
+	margin-right:500rem;
  }
+
+ #about {
+	margin-top:3rem;
+	border-radius: 50px;
+ }
+ #portfolio {
+	margin-top:3rem;
+	border-radius: 50px;
+ }
+ #resume {
+	margin-top:3rem;
+	border-radius: 50px;
+ }
+	#contact {
+	margin-top:3rem;
+	border-radius: 50px;
+ }
+
 
   

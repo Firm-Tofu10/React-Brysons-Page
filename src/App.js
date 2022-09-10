@@ -10,13 +10,28 @@ function App() {
     <div>
 
 			{ <Header title="Bryson's Portfolio."/> }
-			{/* <div style={{backgroundImage: 'url(' + require('./Banner.png') + ')'}}></div>  */}
+			<div style={{backgroundImage: `url(${Navlogo})`,height:"48vh",width:"65%",position:"flex",marginLeft:"32rem",marginTop:"2rem",borderStyle:"solid",borderColor:"white"}}>
+			<ul id="navLine">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+						<li>
+              <a href="#resume">Resume</a>
+            </li>
+						<li>
+              <a href="#contact">Contact</a>
+            </li>
+    </ul>
+			</div> 
 			{/* This line is here becuse i was to generate the nav bar on the image. */}
 			<Footer id="about" version='V0.1.1----' />
 			
 			<Container id='about' maxWidth="sm">
       <Typography component="div" style={{ 
-        backgroundColor: 'White', height: '30vh', width: '50vh', position: 'flex',marginbottom: '2rem',justifyContent: 'center', alignItems: 'center'
+        backgroundColor: 'White', height: '30vh', width: '50vh', position: 'flex',marginbottom: '3rem',justifyContent: 'center', alignItems: 'center'
       }}>
         <h3>About Me</h3>
 						Hello, my name is Bryson Benson I am 24 years old Full Stack Web Developer, I recently graduated from the
