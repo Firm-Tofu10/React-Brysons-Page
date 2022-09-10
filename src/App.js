@@ -41,13 +41,13 @@ function App() {
     </Container>
 		<Container id='portfolio' maxWidth="sm">
       <Typography component="div" id="portfolioCon">
-        <h3 style={{color:"Black",textAlign:"center",fontSize:"30px"}}>Portfolio</h3><li>Day Planer: <a
+        <h3 style={{color:"Black",textAlign:"center",fontSize:"30px",fontWeight:"bold"}}>Portfolio</h3><li>Day Planer: <a
 									href="https://github.com/Firm-Tofu10/Day-Planer">https://github.com/Firm-Tofu10/Day-Planer</a></li>
 							<li>Movie Blog: <a
 									href="https://github.com/Firm-Tofu10/MovieClub">https://github.com/Firm-Tofu10/MovieClub</a>
 							</li>
 							<li>ReadMeGen: <a
-									herf="https://github.com/Firm-Tofu10/ReadMe-Gen">https://github.com/Firm-Tofu10/ReadMe-Gen</a>
+									herf="https://github.com/Firm-Tofu10/RedMe-Gen">https://github.com/Firm-Tofu10/ReadMe-Gen</a>
 							</li>
 							<li>MyTeamGen: <a
 									herf="https://github.com/Firm-Tofu10/MyTeamGen">https://github.com/Firm-Tofu10/MyTeamGen</a>
@@ -73,14 +73,14 @@ function App() {
     </Container>
 		<Container id='resume' maxWidth="sm">
       <Typography component="div">
-        <h3 style={{color:"White",textAlign:"center",fontSize:"30px"}}>Resume</h3>I graduated from University of Utah coding boot camp, the boot camp was a great
+        <h3 style={{color:"White",textAlign:"center",fontSize:"30px",fontWeight:"bold"}}>Resume</h3>I graduated from University of Utah coding boot camp, the boot camp was a great
 									experience mostly because I have been trying to learn how to code since high school. This gave me some
 									much needed structure and the opportunity to learn from and meet like minded people. I also got to
 									experience to see how much there is to learn which is very exciting because i'm the kind of person
 									that becomes bored when there is nothing else to learn or improve at. I would highly recommend this
 									program for anyone that need the structure to learn how to code.
-				<h3>Link to resume.</h3>
-									<a herf="https://docs.google.com/document/d/13n1acTQ35vnsaBpVHn7HGekwTOYwaoC9xDYS6eyJpxM/edit#heading=h.tuxh7mwdaxox">https://docs.google.com/document/d/13n1acTQ35vnsaBpVHn7HGekwTOYwaoC9xDYS6eyJpxM/edit#heading=h.tuxh7mwdaxox</a>
+				<h3>Link to resume.</h3><li>
+									<p herf="https://docs.google.com/document/d/13n1acTQ35vnsaBpVHn7HGekwTOYwaoC9xDYS6eyJpxM/edit#heading=h.tuxh7mwdaxox">https://docs.google.com/document/d/13n1acTQ35vnsaBpVHn7HGekwTOYwaoC9xDYS6eyJpxM/edit#heading=h.tuxh7mwdaxox</p></li>
       </Typography>
     </Container>
 		<Container id='contact' maxWidth="sm">

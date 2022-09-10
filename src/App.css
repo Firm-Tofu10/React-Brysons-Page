@@ -29,6 +29,10 @@ Footer {
   padding: 10px;
 	text-align: center;
 	right:40%;
+	font-weight: bold;
+	border-radius: 100px;
+	border-color: white;
+	border-style:solid;
 }
 
 body {
@@ -85,7 +89,7 @@ body {
 }
 
 #colorC {
-	color:red;
+	color:#8B0000;
 	content:"•"; 
 	font-size:30pt;
 	text-align: center;
@@ -136,7 +140,7 @@ body {
 }
 
 #resume {
-	background-Color: Red; 
+	background-Color: #8B0000; 
 	height: 37vh;
 	width: 50vh;
 	position: flex;
@@ -151,7 +155,7 @@ body {
 }
 
 #contact {
-	background-Color: green; 
+	background-Color: #00FA9A; 
 	height: 37vh;
 	width: 50vh;
 	position: flex;
