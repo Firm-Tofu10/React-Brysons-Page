@@ -5,31 +5,33 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Navlogo from "./components/Banner2.png"
 import { teal } from '@material-ui/core/colors';
+import passGen from "./components/codegen.png"
 
 function App() {
   return (
     <div>
 
-			{ <Header title="Bryson's Portfolio."/> }
-			<div style={{backgroundImage: `url(${Navlogo})`,height:"48vh",width:"65%",position:"flex",marginLeft:"32rem",marginTop:"2rem",borderStyle:"solid",borderColor:"white"}}>
+			{ <Header title="Bryson Benson."/> }
+			<div id="imgBack" style={{backgroundImage: `url(${Navlogo})`}}>
 			<ul id="navLine">
-            <li id='colorA'>
-              <a href="#about">About</a>
+            <li>
+              <a id='colorA' href="#about">About</a>
             </li>
-            <li id='colorB'>
-              <a href="#portfolio">Portfolio</a>
+            <li>
+              <a id='colorB' href="#portfolio">Portfolio</a>
             </li>
-						<li id='colorC'>
-              <a href="#resume">Resume</a>
+						<li>
+              <a id='colorC' href="#resume">Resume</a>
             </li>
-						<li id='colorD'>
-              <a href="#contact">Contact</a>
+						<li>
+              <a id='colorD' href="#contact">Contact</a>
             </li>
     </ul>
 			</div> 
 			{/* This line is here becuse i was to generate the nav bar on the image. */}
 			<Footer id="footer" version='V0.1.1----' />
-			
+			<img src="./components/codegen.png"></img> 
+			{/* Edit img with tutor */}
 			<Container id='about' maxWidth="sm">
       <Typography component="div" id="aboutCon">
         <h3 style={{color:"White",textAlign:"center",fontSize:"30px"}}>About Me</h3>
@@ -79,8 +81,8 @@ function App() {
 									experience to see how much there is to learn which is very exciting because i'm the kind of person
 									that becomes bored when there is nothing else to learn or improve at. I would highly recommend this
 									program for anyone that need the structure to learn how to code.
-				<h3>Link to resume.</h3><li>
-									<p herf="https://docs.google.com/document/d/13n1acTQ35vnsaBpVHn7HGekwTOYwaoC9xDYS6eyJpxM/edit#heading=h.tuxh7mwdaxox">https://docs.google.com/document/d/13n1acTQ35vnsaBpVHn7HGekwTOYwaoC9xDYS6eyJpxM/edit#heading=h.tuxh7mwdaxox</p></li>
+				{/* <h3>Link to resume.</h3><li> */}
+									{/* <p herf="https://docs.google.com/document/d/13n1acTQ35vnsaBpVHn7HGekwTOYwaoC9xDYS6eyJpxM/edit#heading=h.tuxh7mwdaxox">https://docs.google.com/document/d/13n1acTQ35vnsaBpVHn7HGekwTOYwaoC9xDYS6eyJpxM/edit#heading=h.tuxh7mwdaxox</p></li> */}
       </Typography>
     </Container>
 		<Container id='contact' maxWidth="sm">
