@@ -7,6 +7,8 @@ import Navlogo from "./components/Banner2.png"
 import { teal } from '@material-ui/core/colors';
 import passGen from "./components/codegen.png";
 import weather from "./imgs/WeatherApp.jpg";
+import notes from "./imgs/NoteTaker2.jpg";
+import movies from "./imgs/MovieClub.jpg";
 
 function App() {
 	return (
@@ -35,7 +37,7 @@ function App() {
 			<Container maxWidth="sm"><img id="codeGen" src={passGen} alt="passGen"/></Container>
 			<Container id='about' maxWidth="sm">
 				<Typography component="div" id="aboutCon">
-					<h3 style={{ color: "White", textAlign: "center", fontSize: "30px" }}>About Me</h3>
+					<h3 style={{ color: "Black", textAlign: "center", fontSize: "30px" }}>About Me</h3>
 					Hello, my name is Bryson Benson I am 24 years old Full Stack Web Developer, I recently graduated from the
 					University Of Utah via there coding boot camp. Some of my hobbies outside of work consist of Rock Climbing
 					and Video Games. Being from Salt Lake there is plenty of climbing locally and this gives me to the
@@ -45,7 +47,7 @@ function App() {
 			<Container><img id="weather" src={weather} alt="weather"/></Container>
 			<Container id='portfolio' maxWidth="sm">
 				<Typography component="div" id="portfolioCon">
-					<h3 style={{ color: "Black", textAlign: "center", fontSize: "30px", fontWeight: "bold" }}>Portfolio</h3><li>Day Planer: <a
+					<h3 style={{ color: "Black", textAlign: "center", fontSize: "30px", fontWeight: "bold",color:"black" }}>Portfolio</h3><li>Day Planer: <a
 						href="https://github.com/Firm-Tofu10/Day-Planer">https://github.com/Firm-Tofu10/Day-Planer</a></li>
 					<li>Movie Blog: <a
 						href="https://github.com/Firm-Tofu10/MovieClub">https://github.com/Firm-Tofu10/MovieClub</a>
@@ -75,9 +77,10 @@ function App() {
 					https://firm-tofu10.github.io/PasswordGenerator/</a></li>
 				</Typography>
 			</Container>
+			<Container><img id="noteT" src={notes} alt="notes"/></Container>
 			<Container id='resume' maxWidth="sm">
 				<Typography component="div">
-					<h3 style={{ color: "White", textAlign: "center", fontSize: "30px", fontWeight: "bold" }}>Resume</h3>I graduated from University of Utah coding boot camp, the boot camp was a great
+					<h3 style={{ color: "black", textAlign: "center", fontSize: "30px", fontWeight: "bold" }}>Resume</h3>I graduated from University of Utah coding boot camp, the boot camp was a great
 					experience mostly because I have been trying to learn how to code since high school. This gave me some
 					much needed structure and the opportunity to learn from and meet like minded people. I also got to
 					experience to see how much there is to learn which is very exciting because i'm the kind of person
@@ -87,9 +90,10 @@ function App() {
 					{/* <p herf="https://docs.google.com/document/d/13n1acTQ35vnsaBpVHn7HGekwTOYwaoC9xDYS6eyJpxM/edit#heading=h.tuxh7mwdaxox">https://docs.google.com/document/d/13n1acTQ35vnsaBpVHn7HGekwTOYwaoC9xDYS6eyJpxM/edit#heading=h.tuxh7mwdaxox</p></li> */}
 				</Typography>
 			</Container>
+			<Container><img id="moveTV" src={movies} alt="movies"/></Container>
 			<Container id='contact' maxWidth="sm">
 				<Typography component="div">
-					<h3 style={{ color: "Black", textAlign: "center", fontSize: "30px" }}>Contact</h3>
+					<h3 style={{ color: "Black", textAlign: "center", fontSize: "30px",color:"black"}}>Contact</h3>
 					<ul class="list-unstyled mb-4">
 						<li class="mb-3"><a href="#!"><i
 							class="far fa-envelope display-25 me-3 text-secondary"></i>bryonnbenson10@gmail.com</a></li>
