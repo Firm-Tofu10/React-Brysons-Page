@@ -277,7 +277,7 @@ body {
 	
 }
 
-@media screen and (min-width:1080px) { /** > 1024px) **/
+@media screen and (min-width:1080px) and (max-width:1080px) { /** > 1024px) **/
 #imgBack {
 	margin-left: 15.5rem;
 	display:flex;
@@ -314,4 +314,5 @@ footer {
 	margin-top: 2rem;;
 }
 }
+
 
