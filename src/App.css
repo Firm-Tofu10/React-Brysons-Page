@@ -274,10 +274,44 @@ body {
 }
 
 @media screen and (min-width:768px) and (max-width:1080px){ /** 768px - 1024px **/
-
+	
 }
 
 @media screen and (min-width:1080px) { /** > 1024px) **/
+#imgBack {
+	margin-left: 15.5rem;
+	display:flex;
+}
 
+#header {
+	text-align: center;
+	margin-right:5rem;
+}
+
+#master-container {
+	margin-left:15rem;
+}
+
+#weather {
+	margin-left:8rem;
+	margin-top: 4rem;
+}
+
+#moveTV {
+	margin-left:8rem;
+}
+
+#noteT {
+	margin-left:8rem;
+}
+
+footer {
+	margin-left:45rem;
+}
+
+#navLine {
+	margin-left:5.5rem;
+	margin-top: 2rem;;
+}
 }
 
