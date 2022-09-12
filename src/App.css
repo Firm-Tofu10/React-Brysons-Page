@@ -268,6 +268,90 @@ body {
 	.large-image {
 		display:none;
 	}
+
+	#imgBack {
+		margin-left: 15.5rem;
+		display:flex;
+		width:250%;
+		margin-left:.5rem;
+	}
+	
+	#header {
+		text-align: center;
+		width: 255.5%;
+		display: flex;
+		margin: auto;
+	}
+	
+	#master-container {
+		margin-left:14rem;
+		display:flex;
+	}
+
+	#aboutCon {
+		margin-right:6rem;
+	}
+
+	#portfolio {
+		margin-left:8rem;
+		height:50%;
+		width:100%;
+	}
+
+	#resume {
+		margin-left:8rem;
+		height:50%;
+	}
+
+	#contact {
+		margin-left:8rem;
+		height:50%;
+	}
+	
+	#weather {
+		margin-left:8rem;
+		margin-bottom: 3rem;
+		height:100%;
+
+	}
+	
+	#moveTV {
+		margin-left:8rem;
+	}
+	
+	#noteT {
+		margin-left:8rem;
+	}
+
+	#codeGen {
+		margin-left:8rem;
+	}
+	
+	footer {
+		margin-left:17rem;
+		width:100%;
+	}
+	
+	#navLine {
+		margin-top: 2rem;;
+		display: flex;
+	} 
+
+	#colorA {
+		margin-left:0rem;
+	}
+
+	#colorB {
+		margin-left:2rem;
+	}
+
+	#colorC {
+		margin-left:2rem;
+	}
+
+	#colorD {
+		margin-right:2rem;
+	}
 }
 @media screen and (min-width:480px) and (max-width:768px) { /** 480px - 768px **/
 	
